@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1>Home Page</h1>
+      <h1 className='display-1'>Home</h1>
 
       {users.length === 0 && (
         <div className='text-center '>
